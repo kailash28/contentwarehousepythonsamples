@@ -19,7 +19,7 @@ def createDocument(project_number: str, location: str, user_id: str , schemaId:s
     document = contentwarehouse.Document(
         display_name="My Test Document",
         document_schema_name=document_schema.name,
-        raw_document_path = "gs://dbecm-bucket/TestDoc_1.5MB.pdf"
+        raw_document_path = "<bucket gs path>"
         #plain_text="This is a sample of a document's text.",
         #properties=[document_property],
     )
