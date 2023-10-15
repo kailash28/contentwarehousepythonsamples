@@ -20,7 +20,6 @@ def createFolderObejectByFolderSchemaId(project_number: str, location: str, user
     document = contentwarehouse.Document(
         #display_name="My Test Document",
         document_schema_name=document_schema.name
-        #raw_document_path = "gs://dbecm-bucket/TestDoc_1.5MB.pdf"
         #plain_text="This is a sample of a document's text.",
         #properties=[document_property],
     )
